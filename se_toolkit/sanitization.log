@@ -1,0 +1,346 @@
+DEBUG:stem:System call: tor --version (runtime: 0.01)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 13:46:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 13:46:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:stem:System call: tor --version (runtime: 0.01)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 16:59:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 16:59:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:stem:System call: tor --version (runtime: 0.01)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:34:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:34:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:34:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:34:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:stem:System call: tor --version (runtime: 0.15)
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:38:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:stem:System call: tor --version (runtime: 0.21)
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:52:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:52:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:stem:System call: tor --version (runtime: 0.03)
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/app.py", line 58, in index
+    return render_template('login.html',
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/templates/login.html", line 217, in top-level template code
+    <p>© {{ now.year }} {{ company }}. All rights reserved. |
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/SOCIAL_ENG/se_toolkit/venv/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'now' is undefined
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2025 17:56:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:stem:System call: tor --version (runtime: 0.17)

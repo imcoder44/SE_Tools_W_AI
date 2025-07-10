@@ -1,0 +1,46 @@
+# Ethical SET Configuration
+# WARNING: FOR AUTHORIZED TESTING ONLY
+
+phishing:
+  company_name: "SecureCorp"
+  redirect_url: "https://example.com/auth-error"
+  login_page_title: "Secure Portal Login"
+
+server:
+  host: "127.0.0.1"
+  port: 5000
+  use_ssl: true
+
+mailer:
+  smtp_server: "smtp.example.com"
+  smtp_port: 587
+  smtp_user: "<-- Enter Email --->"
+  smtp_pass: "<-- Enter Password -->"
+
+twilio:
+  account_sid: "<-- Acc_SID -->"
+  auth_token: "<-- Token -->"
+  from_number: "<-- Twilio Number -->"
+  whatsapp_number: "<-- Twilio whatsaap -->"
+
+telegram:
+  bot_token: "<-- Telegram_bot_token -->"
+  default_chat_id: "<-- Chat_ID -->"
+
+security:
+  log_encryption_key: "changeme-32char-encryption-key-here"
+  max_input_length: 128
+
+ai:
+  openai_key: "<-- OpenAI_API -->"
+  resembleai_key: "<-- ResembleAi_API # Optinal -->"
+
+# In future
+blockchain:
+  infura_key: ""
+  contract_address: "0x..."
+  admin_addresses: 
+    - "0xYourEthAddress"
+
+tor:
+  enabled: true
